@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.sql.Date</OriginalElement>
+  <nodes>
+    <node x="151.25" y="235.0">java.util.Calendar</node>
+    <node x="33.0" y="0.0">java.text.Format</node>
+    <node x="182.0" y="119.0">java.sql.Time</node>
+    <node x="222.0" y="315.0">java.util.GregorianCalendar</node>
+    <node x="296.5" y="39.0">java.util.Date</node>
+    <node x="278.0" y="119.0">java.sql.Timestamp</node>
+    <node x="0.0" y="315.0">java.util.JapaneseImperialCalendar</node>
+    <node x="0.0" y="160.0">java.text.SimpleDateFormat</node>
+    <node x="19.5" y="80.0">java.text.DateFormat</node>
+    <node x="410.0" y="119.0">java.sql.Date</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.sql.Time" target="java.util.Date">
+      <point x="0.0" y="-15.0" />
+      <point x="220.0" y="94.0" />
+      <point x="309.0" y="94.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="java.text.DateFormat" target="java.text.Format">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.text.SimpleDateFormat" target="java.text.DateFormat">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.sql.Timestamp" target="java.util.Date">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.GregorianCalendar" target="java.util.Calendar">
+      <point x="0.0" y="-15.0" />
+      <point x="301.5" y="290.0" />
+      <point x="226.25" y="290.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="java.sql.Date" target="java.util.Date">
+      <point x="0.0" y="-15.0" />
+      <point x="447.5" y="94.0" />
+      <point x="359.0" y="94.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="java.util.JapaneseImperialCalendar" target="java.util.Calendar">
+      <point x="0.0" y="-15.0" />
+      <point x="101.0" y="290.0" />
+      <point x="176.25" y="290.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="269.0" y="196.5" />
+  <SelectedNodes>
+    <node>java.sql.Time</node>
+    <node>java.util.Date</node>
+    <node>java.sql.Timestamp</node>
+    <node>java.sql.Date</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
